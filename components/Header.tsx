@@ -25,12 +25,13 @@ export default function Header() {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-[#0072CE] focus:outline-none"
+          className="md:hidden text-[#0072CE] text-3xl px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-[#0072CE]"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
           ☰
         </button>
+
 
         {/* Desktop nav */}
         <nav className="hidden md:flex gap-6 items-center">
