@@ -12,7 +12,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo + Tagline */}
         <div className="flex items-center gap-3">
-          <Image src="/images/forward-focus-logo.svg" alt="Forward Focus Logo" width={36} height={36} />
+          <Image src="/images/ff-logo.png" alt="Forward Focus Logo" width={36} height={36} />
           <div className="flex flex-col leading-tight">
             <h1 className="text-lg sm:text-xl font-bold text-gray-900">
               Forward<span className="text-[#00AEEF]">Focus</span>
