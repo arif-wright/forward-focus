@@ -67,7 +67,7 @@ export default function Header() {
             { label: 'Home', href: '/' },
             { label: 'About', href: '/about' },
             { label: 'Services', href: '/services' },
-            { label: 'EcoFocus', href: '/ecofocus' },
+            { label: 'EcoFocus', href: 'https://www.ecofocusworldwide.com' },
             { label: "Let’s Talk", href: '/contact', highlight: true },
           ].map(({ label, href, highlight }) => (
             <Link

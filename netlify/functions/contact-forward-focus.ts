@@ -36,7 +36,10 @@ export const handler: Handler = async (event) => {
 
         await resend.emails.send({
             from: 'Forward Focus <hello@fwdfocus.com>',
-            to: 'awright@ecofocusworldwide.com',
+            to: [
+                'awright@ecofocusworldwide.com',
+                'jcroft@fwdfocus.com'
+            ],
             subject: `New Contact: ${name}`,
             replyTo: email,
             html: internalHTML
@@ -69,14 +72,14 @@ export const handler: Handler = async (event) => {
         <footer style="margin-top: 48px; font-size: 13px; color: #888; text-align: center;">
           — The Forward Focus Team<br />
           Strategic & Sustainability Consulting<br />
-          <a href="https://forwardfocus.com" style="color: #0072CE; text-decoration: none;">forwardfocus.com</a>
+          <a href="https://fwdfocus.com" style="color: #0072CE; text-decoration: none;">fwdfocus.com</a>
         </footer>
       </div>
     `;
 
         await resend.emails.send({
             from: 'Forward Focus <hello@fwdfocus.com>',
-            replyTo: 'lquidsilver@gmail.com',
+            replyTo: 'jcroft@fwdfocus.com ',
             to: email,
             subject: `Thanks for contacting Forward Focus`,
             html: thankYouHTML
