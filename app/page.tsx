@@ -141,7 +141,7 @@ export default function Home() {
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Powered by EcoFocus Worldwide</h2>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
                 Our sustainability consulting is uniquely informed by our partnership with EcoFocus Worldwide,
-                a leading research organization specializing in consumer attitudes and behaviors since 2010.
+                a leading research organization specializing in consumer attitudes and behaviors since 2010. This collaboration ensures our recommendations are grounded in the latest research, market trends, and regulatory developments.
               </p>
               <p className="text-sm text-gray-600">
                 Together, we offer data-driven insights that enable meaningful change.
