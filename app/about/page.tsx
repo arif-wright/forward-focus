@@ -6,22 +6,22 @@ import Link from 'next/link';
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="bg-white flex flex-col">
       <Header />
 
       {/* Hero Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 sm:py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">About Forward Focus</h1>
           <p className="text-base sm:text-xl text-gray-700 leading-relaxed">
-            Founded on the principle that sustainable success requires strategic clarity and a forward thinking plan. As Wayne Gretsky
+            Founded on the principle that sustainable success requires strategic clarity and a forward thinking plan. As Wayne Gretzky
             was fond of saying: “Skate to where the puck is going, not where it's been”.
           </p>
         </div>
       </section>
 
       {/* Jerry Croft Bio */}
-      <section className="py-20 bg-white">
+      <section className="py-12 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
@@ -71,7 +71,7 @@ export default function About() {
       </section>
 
       {/* EcoFocus Partnership */}
-      <section className="py-20 bg-[#7AC943]/5">
+      <section className="py-12 sm:py-20 bg-[#7AC943]/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -86,35 +86,45 @@ export default function About() {
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
                     <strong className="text-gray-900">Data-Driven Strategy Development</strong>
-                    <p className="text-gray-600 text-sm mt-1">We help clients turn sustainability and consumer insights into actionable strategies that align with business goals and stakeholder expectations.</p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      We help clients turn sustainability and consumer insights into actionable strategies that align with business goals and stakeholder expectations.
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
                     <strong className="text-gray-900">Custom Insights & Trend Interpretation</strong>
-                    <p className="text-gray-600 text-sm mt-1">Beyond dashboards, we provide expert interpretation of data to reveal the “why” behind the numbers—enabling smarter product, packaging, and messaging decisions.</p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      Beyond dashboards, we provide expert interpretation of data to reveal the “why” behind the numbers—enabling smarter product, packaging, and messaging decisions.
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
                     <strong className="text-gray-900">Segmentation & Targeting Guidance</strong>
-                    <p className="text-gray-600 text-sm mt-1">We identify high-value consumer segments (e.g.health-driven parents) and recommend positioning strategies that maximize relevance and ROI.</p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      We identify high-value consumer segments (e.g. health-driven parents) and recommend positioning strategies that maximize relevance and ROI.
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
                     <strong className="text-gray-900">Sustainability Narrative Support</strong>
-                    <p className="text-gray-600 text-sm mt-1">We connect research insights to ESG storytelling, helping clients substantiate claims and avoid greenwashing.</p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      We connect research insights to ESG storytelling, helping clients substantiate claims and avoid greenwashing.
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
                     <strong className="text-gray-900">Opportunity Scoping & Innovation Input</strong>
-                    <p className="text-gray-600 text-sm mt-1">From circular packaging to functional ingredient shifts, we uncover emerging needs and innovation whitespace through the lens of consumer behavior.</p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      From circular packaging to functional ingredient shifts, we uncover emerging needs and innovation whitespace through the lens of consumer behavior.
+                    </p>
                   </div>
                 </li>
               </ul>
@@ -131,7 +141,7 @@ export default function About() {
       </section>
 
       {/* Our Approach */}
-      <section className="py-20 bg-white">
+      <section className="py-12 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Our Approach</h2>
@@ -175,7 +185,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 sm:py-20 px-4 bg-gray-900">
+      <section className="py-12 sm:py-16 px-4 bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Ready to Work Together?</h2>
           <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
@@ -194,3 +204,4 @@ export default function About() {
     </div>
   );
 }
+

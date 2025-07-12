@@ -146,7 +146,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 sm:py-20 bg-gray-900">
+      <section className="py-12 sm:py-16 bg-gray-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">Ready to Get Started?</h2>
           <p className="text-base sm:text-xl text-gray-300 mb-8 leading-relaxed">
@@ -175,4 +175,5 @@ export default function Services() {
     </div>
   );
 }
+
 

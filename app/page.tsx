@@ -7,12 +7,11 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="bg-white flex flex-col">
       <Header />
 
       {/* Hero Section */}
       <section className="relative min-h-[600px] flex items-center overflow-hidden">
-        {/* Background video */}
         <video
           autoPlay
           loop
@@ -23,11 +22,8 @@ export default function Home() {
           <source src="/videos/6148022a-3cb0-4baf-9d89-8884d1722e0a_0.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-
-        {/* Optional fallback overlay */}
         <div className="absolute inset-0 bg-black/30 z-0" />
 
-        {/* Content container */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="bg-white/80 backdrop-blur-md rounded-md p-6 sm:p-8 shadow-md max-w-2xl">
@@ -53,7 +49,7 @@ export default function Home() {
       </section>
 
       {/* About Forward Focus */}
-      <section className="py-20 bg-[#F9FAFB] border-t-4 border-[#F2C300]">
+      <section className="py-12 sm:py-20 bg-[#F9FAFB] border-t-4 border-[#F2C300]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16 max-w-4xl mx-auto text-left">
             <span className="inline-block mb-2 text-sm font-medium text-[#0072CE] uppercase tracking-wider">
@@ -82,7 +78,7 @@ export default function Home() {
       </section>
 
       {/* What We Offer */}
-      <section className="py-20 bg-white">
+      <section className="py-12 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16 max-w-3xl mx-auto text-center">
             <span className="inline-block mb-2 text-sm font-medium text-[#0072CE] uppercase tracking-wider">
@@ -127,7 +123,7 @@ export default function Home() {
                 <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Custom Insights & Trend Interpretation</li>
                 <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Segmentation & Targeting Guidance</li>
                 <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Sustainability Narrative Support</li>
-                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Opportunity Scoping & Innovation Input Powered by EcoFocus Worldwide</li>
+                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Innovation Input Powered by EcoFocus</li>
               </ul>
             </div>
           </div>
@@ -135,7 +131,7 @@ export default function Home() {
       </section>
 
       {/* EcoFocus Partnership */}
-      <section className="py-20 bg-[#0072CE]/5">
+      <section className="py-12 sm:py-20 bg-[#0072CE]/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
@@ -146,8 +142,6 @@ export default function Home() {
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
                 Our sustainability consulting is uniquely informed by our partnership with EcoFocus Worldwide,
                 a leading research organization specializing in consumer attitudes and behaviors since 2010.
-                This collaboration ensures our recommendations are grounded in the latest research, market trends,
-                and regulatory developments.
               </p>
               <p className="text-sm text-gray-600">
                 Together, we offer data-driven insights that enable meaningful change.
@@ -167,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 sm:py-20 px-4 bg-gradient-to-br from-gray-900 via-gray-900 to-[#001F3F]">
+      <section className="py-12 sm:py-16 px-4 bg-gradient-to-br from-gray-900 via-gray-900 to-[#001F3F]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Ready to Move Forward?</h2>
           <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
@@ -187,4 +181,5 @@ export default function Home() {
     </div>
   );
 }
+
 
