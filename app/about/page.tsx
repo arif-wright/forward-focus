@@ -14,7 +14,8 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">About Forward Focus</h1>
           <p className="text-base sm:text-xl text-gray-700 leading-relaxed">
-            Founded on the principle that sustainable success requires both strategic clarity and environmental responsibility.
+            Founded on the principle that sustainable success requires strategic clarity and a forward thinking plan. As Wayne Gretsky
+            was fond of saying: “Skate to where the puck is going, not where it's been”.
           </p>
         </div>
       </section>
@@ -84,29 +85,36 @@ export default function About() {
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
-                    <strong className="text-gray-900">Comprehensive Market Intelligence</strong>
-                    <p className="text-gray-600 text-sm mt-1">Real-time data on sustainability trends, regulations, and market opportunities</p>
+                    <strong className="text-gray-900">Data-Driven Strategy Development</strong>
+                    <p className="text-gray-600 text-sm mt-1">We help clients turn sustainability and consumer insights into actionable strategies that align with business goals and stakeholder expectations.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
-                    <strong className="text-gray-900">Industry Benchmarking</strong>
-                    <p className="text-gray-600 text-sm mt-1">Comparative analysis across sectors for informed decision-making</p>
+                    <strong className="text-gray-900">Custom Insights & Trend Interpretation</strong>
+                    <p className="text-gray-600 text-sm mt-1">Beyond dashboards, we provide expert interpretation of data to reveal the “why” behind the numbers—enabling smarter product, packaging, and messaging decisions.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
-                    <strong className="text-gray-900">Regulatory Insights</strong>
-                    <p className="text-gray-600 text-sm mt-1">Early identification of regulatory changes and compliance requirements</p>
+                    <strong className="text-gray-900">Segmentation & Targeting Guidance</strong>
+                    <p className="text-gray-600 text-sm mt-1">We identify high-value consumer segments (e.g.health-driven parents) and recommend positioning strategies that maximize relevance and ROI.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
                   <div>
-                    <strong className="text-gray-900">Innovation Tracking</strong>
-                    <p className="text-gray-600 text-sm mt-1">Monitoring emerging technologies and sustainable business models</p>
+                    <strong className="text-gray-900">Sustainability Narrative Support</strong>
+                    <p className="text-gray-600 text-sm mt-1">We connect research insights to ESG storytelling, helping clients substantiate claims and avoid greenwashing.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <i className="ri-check-line text-[#7AC943] mr-3 mt-1 w-5 h-5 flex items-center justify-center"></i>
+                  <div>
+                    <strong className="text-gray-900">Opportunity Scoping & Innovation Input</strong>
+                    <p className="text-gray-600 text-sm mt-1">From circular packaging to functional ingredient shifts, we uncover emerging needs and innovation whitespace through the lens of consumer behavior.</p>
                   </div>
                 </li>
               </ul>

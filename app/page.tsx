@@ -123,11 +123,11 @@ export default function Home() {
                 Data-driven sustainability strategies that align environmental responsibility with business performance.
               </p>
               <ul className="space-y-3 text-gray-700 text-sm sm:text-base">
-                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> ESG Strategy & Implementation</li>
-                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Carbon Footprint Analysis</li>
-                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Sustainable Supply Chain Design</li>
-                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Impact Measurement & Reporting</li>
-                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Green Innovation Strategy</li>
+                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Data-Driven Strategy Development</li>
+                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Custom Insights & Trend Interpretation</li>
+                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Segmentation & Targeting Guidance</li>
+                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Sustainability Narrative Support</li>
+                <li className="flex items-start"><span className="text-[#7AC943] mr-2">✓</span> Opportunity Scoping & Innovation Input Powered by EcoFocus Worldwide</li>
               </ul>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function Home() {
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Powered by EcoFocus Worldwide</h2>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
                 Our sustainability consulting is uniquely informed by our partnership with EcoFocus Worldwide,
-                a leading research organization specializing in environmental data and market intelligence.
+                a leading research organization specializing in consumer attitudes and behaviors since 2010.
                 This collaboration ensures our recommendations are grounded in the latest research, market trends,
                 and regulatory developments.
               </p>
