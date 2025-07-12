@@ -46,8 +46,8 @@ export const handler: Handler = async (event) => {
     `;
 
         await resend.emails.send({
-            from: 'Forward Focus <no-reply@forwardfocus.ai>',
-            to: 'your-email@yourdomain.com', // Replace with your recipient address
+            from: 'Forward Focus <no-reply@forwardfocus.com>',
+            to: 'lquidsilver@gmail.com', // Replace with your recipient address
             subject: `New Contact: ${name}`,
             replyTo: email,
             html: formattedHTML
