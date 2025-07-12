@@ -49,7 +49,7 @@ export const handler: Handler = async (event) => {
             from: 'Forward Focus <no-reply@forwardfocus.ai>',
             to: 'your-email@yourdomain.com', // Replace with your recipient address
             subject: `New Contact: ${name}`,
-            reply_to: email,
+            replyTo: email,
             html: formattedHTML
         });
 
