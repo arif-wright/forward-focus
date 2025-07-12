@@ -79,7 +79,7 @@ export const handler: Handler = async (event) => {
 
         await resend.emails.send({
             from: 'Forward Focus <hello@fwdfocus.com>',
-            replyTo: 'jcroft@fwdfocus.com ',
+            replyTo: 'Jerry Croft <jcroft@fwdfocus.com>',
             to: email,
             subject: `Thanks for contacting Forward Focus`,
             html: thankYouHTML
